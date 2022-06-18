@@ -1,0 +1,68 @@
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(26, 95, 26);
+    color: aliceblue;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 2;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.diaDaSemana, #btn {
+    display: block;
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.qtdeHorasIdeal {
+    display: block;
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgb(231, 240, 203);
+}
+
+.input-container {
+    background-color: gainsboro;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+body {
+    background-color: rgb(15, 30, 43);
+}
+
+#btn {
+    background-color: lightseagreen;
+    width: 100px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#btn:hover {
+    background-color: rgb(17, 100, 96);
+    color: white;
+    text-decoration: underline;
+}
+
+.resposta {
+    width: 400px;
+    margin: 10px auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
