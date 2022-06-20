@@ -1,7 +1,7 @@
 header {
     text-align: center;
     padding: 20px;
-    background-color: rgb(26, 95, 26);
+    background-color: rgb(19, 12, 114);
     color: aliceblue;
     border-radius: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -32,15 +32,16 @@ header {
 }
 
 .input-container {
-    background-color: gainsboro;
+    background-color: rgb(18, 31, 75);
     max-width: 500px;
     margin: 20px auto;
     padding: 10px;
+    border: 1px solid black;
     border-radius: 15px;
 }
 
 body {
-    background-color: rgb(15, 30, 43);
+    background-color: rgb(142, 186, 231);
 }
 
 #btn {
@@ -58,8 +59,23 @@ body {
     text-decoration: underline;
 }
 
+.label-estilo {
+    display: block;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: white;
+    width: 100%;
+    max-width: 450px;
+    margin: 5px auto;
+}
+
 .resposta {
-    max-width: 300px;
+    display: block;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
     margin: 10px auto;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;

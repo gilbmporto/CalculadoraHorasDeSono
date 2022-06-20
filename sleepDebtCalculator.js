@@ -17,11 +17,11 @@ botao.addEventListener('click', () => {
   }
   if (totalDeHoras == (Number(qtdeHorasIdeal.value) * 7)) {
     
-    resposta.innerHTML = '<em style="color: green">Você dormiu bem, seu arrombado.</em>'
+    resposta.innerHTML = '<em style="color: green">Você dormiu bem essa semana!</em>'
   } else if (totalDeHoras < (Number(qtdeHorasIdeal.value) * 7)) {
     resposta.innerHTML = `<em style="color: red">Você dormiu menos do que o recomendado. Você deveria ter dormido ${(Number(qtdeHorasIdeal.value) * 7) - totalDeHoras} horas a mais nessa semana.</em>`
   } else {
-    resposta.innerHTML = `<em style="color: red">Você dormiu muito mais, seu resto de bosta. Você deveria ter dormido ${totalDeHoras - (Number(qtdeHorasIdeal.value) * 7)} horas a menos nessa semana.</em>`
+    resposta.innerHTML = `<em style="color: red">Você dormiu muito mais do que o recomendado. Você deveria ter dormido ${totalDeHoras - (Number(qtdeHorasIdeal.value) * 7)} horas a menos nessa semana.</em>`
   }
 })
 
