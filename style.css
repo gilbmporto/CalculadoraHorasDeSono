@@ -1,3 +1,5 @@
+
+
 header {
     text-align: center;
     padding: 20px;
@@ -41,7 +43,7 @@ header {
 }
 
 body {
-    background-color: rgb(142, 186, 231);
+    background-color: rgb(255, 255, 255);
 }
 
 #btn {
@@ -71,6 +73,7 @@ body {
 }
 
 .resposta {
+    padding: 5px;
     display: block;
     border: 1px solid black;
     border-radius: 10px;
@@ -78,7 +81,7 @@ body {
     width: 400px;
     margin: 10px auto;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto Serif', serif;
     font-weight: 500;
     font-size: 18px;
 }
